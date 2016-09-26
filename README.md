@@ -8,7 +8,7 @@ This repository contains code for both the Single-Player and Two-Player variants
 
 The majority of the Single-Player variant was implemented for my Master Thesis, written at the Department of Data Science and Knowledge Engineering of Maastricht
 University, for the Master of Science in Artificial Intelligence program. After finishing that thesis, I continued modifying the agent a bit more for the competitions
-at the [GECCO 2016](gecco-2016.sigevo.org/) and [IEEE CIG 2016](http://cig16.image.ece.ntua.gr/) conferences. The source code in this repository is the latest version
+at the [GECCO 2016](http://gecco-2016.sigevo.org/) and [IEEE CIG 2016](http://cig16.image.ece.ntua.gr/) conferences. The source code in this repository is the latest version
 (meaning, the version submitted to the CIG competition).
 
 The Two-Player variant at the GECCO 2016 competition was simply the Single-Player variant, with a number of features disabled that were not expected to work well in a
