@@ -40,7 +40,7 @@ Acknowledgements
 Thanks to Torsten Schuster for developing the [MaastCTS](http://www.gvgai.net/view_profile.php?id=237) agent and describing it in 
 [his thesis](https://project.dke.maastrichtuniversity.nl/games/files/msc/Schuster_thesis.pdf). The MCTS implementation of this agent was used as a starting point
 for the development of MaastCTS2. Thanks to Dr. Mark Winands and Chiara Sironi, M.Sc. for their supervision of my Master Thesis project. Thanks to the
-[organizers](http://www.gvgai.net/about_us.php) of the GVG-AI Competition for organizing these competitions.
+[organisers](http://www.gvgai.net/about_us.php) of the GVG-AI Competition for organising these competitions.
 
 References
 ----------
