@@ -18,7 +18,7 @@ It has been included nevertheless.
 
 Documentation
 -------------
-- A description of an earlier version of the agent has been published in the proceedings of the IEEE CIG 2016 conference<sup>[1](#cigpaper)</sup>. Note that the submission 
+- A description of an earlier version of the agent has been published in the proceedings of the IEEE CIG 2016 conference.<sup>[1](#cigpaper)</sup> Note that the submission 
 deadline for this conference was earlier than the deadlines for the competitions, so this paper does not describe everything. It still does include the most interesting and
 important features, which had already been implemented and tested at the time.
 - Currently, the most extensive documentation of techniques used by the agent is my Master Thesis, for which I will include a link here once it is available online. It 
