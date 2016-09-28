@@ -11,10 +11,10 @@ University, for the Master of Science in Artificial Intelligence program. After 
 at the [GECCO 2016](http://gecco-2016.sigevo.org/) and [IEEE CIG 2016](http://cig16.image.ece.ntua.gr/) conferences. The source code in this repository is the latest version
 (meaning, the version submitted to the CIG competition).
 
-The Two-Player variant at the GECCO 2016 competition was simply the Single-Player variant, with a number of features disabled that were not expected to work well in a
-two-player setting (though this has not been verified by experiments yet). For the competition at CIG 2016, it was modified a bit more. The source code of this variant
-is not as clean as I'd like. This is because it started out as a Single-Player variant, than had various parts of code cut out, and some other blocks of code inserted.
-It has been included nevertheless.
+The Two-Player variant at the [WCCI 2016](http://www.wcci2016.org/) competition was simply the Single-Player variant, with a number of features disabled that were not 
+expected to work well in a two-player setting (though this has not been verified by experiments yet). For the competition at CIG 2016, it was modified a bit more. The 
+source code of this variant is not as clean as I'd like. This is because it started out as a Single-Player variant, than had various parts of code cut out, and some other 
+blocks of code inserted. It has been included nevertheless.
 
 Documentation
 -------------
