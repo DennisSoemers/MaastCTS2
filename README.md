@@ -23,7 +23,8 @@ deadline for this conference was earlier than the deadlines for the competitions
 important features, which had already been implemented and tested at the time.
 - Currently, the most extensive documentation of techniques used by the agent is my Master Thesis, for which I will include a link here once it is available online. It 
 also doesn't includes all details though, since development continued after finshing the thesis.
-- A more extensive description of the latest changes will hopefully follow later.
+- I wrote an informal description of how MaastCTS2 works [here](https://dennissoemers.github.io/jekyll/update/2016/09/29/the-general-video-game-agent-maastcts2.html).
+- A more extensive description of the latest changes will maybe follow later.
 
 License
 -------
