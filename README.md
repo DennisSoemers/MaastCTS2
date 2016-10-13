@@ -18,13 +18,12 @@ blocks of code inserted. It has been included nevertheless.
 
 Documentation
 -------------
-- A description of an earlier version of the agent has been published in the proceedings of the IEEE CIG 2016 conference.<sup>[1](#cigpaper)</sup> Note that the submission 
-deadline for this conference was earlier than the deadlines for the competitions, so this paper does not describe everything. It still does include the most interesting and
-important features, which had already been implemented and tested at the time.
+- A description of an earlier version of the agent has been [published](https://dke.maastrichtuniversity.nl/m.winands/documents/CIG2016_GVGAI.pdf) in the proceedings 
+of the IEEE CIG 2016 conference.<sup>[1](#cigpaper)</sup> Note that the submission deadline for this conference was earlier than the deadlines for the competitions, 
+so this paper does not describe everything. It still does include the most interesting and important features, which had already been implemented and tested at the time.
 - Currently, the most extensive documentation of techniques used by the agent is my Master Thesis, for which I will include a link here once it is available online. It 
 also doesn't includes all details though, since development continued after finshing the thesis.
 - I wrote an informal description of how MaastCTS2 works [here](https://dennissoemers.github.io/jekyll/update/2016/09/29/the-general-video-game-agent-maastcts2.html).
-- A more extensive description of the latest changes will maybe follow later.
 
 License
 -------
@@ -46,5 +45,5 @@ for the development of MaastCTS2. Thanks to Dr. Mark Winands and Chiara Sironi, 
 References
 ----------
 
-<a name="cigpaper">[1]</a>: Soemers, D.J.N.J., Sironi, C.F., Schuster, T., and Winands, M.H.M. (2016). Enhancements for Real-Time Monte-Carlo Tree Search in General Video 
-Game Playing. In *2016 IEEE Conference on Computational Intelligence and Games (CIG 2016)*.
+<a name="cigpaper">[1]</a>: Soemers, D.J.N.J., Sironi, C.F., Schuster, T., and Winands, M.H.M. (2016). [Enhancements for Real-Time Monte-Carlo Tree Search in General Video 
+Game Playing](https://dke.maastrichtuniversity.nl/m.winands/documents/CIG2016_GVGAI.pdf). In *2016 IEEE Conference on Computational Intelligence and Games (CIG 2016)*.
