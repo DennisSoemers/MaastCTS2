@@ -23,7 +23,7 @@ of the IEEE CIG 2016 conference.<sup>[1](#cigpaper)</sup> Note that the submissi
 so this paper does not describe everything. It still does include the most interesting and important features, which had already been implemented and tested at the time.
 - Currently, the most extensive documentation of techniques used by the agent is my [Master Thesis](https://project.dke.maastrichtuniversity.nl/games/files/msc/Soemers_thesis.pdf). 
 It also doesn't includes all details though, since development continued after finshing the thesis.
-- I wrote an informal description of how MaastCTS2 works [here](https://dennissoemers.github.io/jekyll/update/2016/09/29/the-general-video-game-agent-maastcts2.html).
+- I wrote an informal description of how MaastCTS2 works [here](https://dennissoemers.github.io/maastcts2/general%20video%20game%20ai/monte%20carlo%20tree%20search/the-general-video-game-agent-maastcts2/).
 
 License
 -------
