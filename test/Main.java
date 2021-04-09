@@ -10,6 +10,8 @@ import core.competition.CompetitionParameters;
 import test.config.TestConfig;
 import test.lists.ConfigList;
 
+// Hello from Cameron
+
 public class Main {
 
 	//public static final String gamesPath = "./gridphysics/";
