@@ -725,7 +725,7 @@ public class MctsController implements IController {
 		
 		long maxDurationSafetyCheckRound = 0L;
 		for(int safetyCheckRound = 0; safetyCheckRound < MAX_NUM_SAFETY_CHECKS; ++safetyCheckRound){
-			ElapsedCpuTimer roundTimer = new ElapsedCpuTimer(CompetitionParameters.TIMER_TYPE);
+			ElapsedCpuTimer roundTimer = new ElapsedCpuTimer();
 			for(int actionIdx = 0; actionIdx < numRootActions; ++actionIdx){				
 				StateObservation successor = rootStateObs.copy();
 				successor.advance(availableActions.get(actionIdx));
@@ -819,7 +819,7 @@ public class MctsController implements IController {
 
 		long maxDurationSafetyCheckRound = 0L;
 		for(int safetyCheckRound = 0; safetyCheckRound < MAX_NUM_SAFETY_CHECKS; ++safetyCheckRound){
-			ElapsedCpuTimer roundTimer = new ElapsedCpuTimer(CompetitionParameters.TIMER_TYPE);
+			ElapsedCpuTimer roundTimer = new ElapsedCpuTimer();
 			for(int actionIdx = 0; actionIdx < numActions; ++actionIdx){				
 				StateObservation successor = state.copy();
 				successor.advance(children.get(actionIdx).getActionFromParent());	// TODO also use these states to update knowledge base?
