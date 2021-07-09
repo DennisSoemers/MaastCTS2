@@ -549,7 +549,7 @@ public class MctsController implements IController {
 		
 		long maxDurationSafetyCheckRound = 0L;
 		for(int safetyCheckRound = 0; safetyCheckRound < MAX_NUM_SAFETY_CHECKS; ++safetyCheckRound){
-			ElapsedCpuTimer roundTimer = new ElapsedCpuTimer(CompetitionParameters.TIMER_TYPE);
+			ElapsedCpuTimer roundTimer = new ElapsedCpuTimer();
 			for(int actionIdx = 0; actionIdx < numRootActions; ++actionIdx){				
 				StateObservationMulti successor = rootStateObs.copy();
 				successor.advance(Globals.generateActionArray(availableActions.get(actionIdx), successor, null, null, 0.0, root));
@@ -644,7 +644,7 @@ public class MctsController implements IController {
 
 		long maxDurationSafetyCheckRound = 0L;
 		for(int safetyCheckRound = 0; safetyCheckRound < MAX_NUM_SAFETY_CHECKS; ++safetyCheckRound){
-			ElapsedCpuTimer roundTimer = new ElapsedCpuTimer(CompetitionParameters.TIMER_TYPE);
+			ElapsedCpuTimer roundTimer = new ElapsedCpuTimer();
 			for(int actionIdx = 0; actionIdx < numActions; ++actionIdx){				
 				StateObservationMulti successor = state.copy();
 				successor.advance(Globals.generateActionArray(children.get(actionIdx).getActionFromParent(), 
