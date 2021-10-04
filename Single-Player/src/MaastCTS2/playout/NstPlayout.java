@@ -115,6 +115,7 @@ public class NstPlayout implements IPlayoutStrategy {
 							
 							sumAvgScores += actionNGramScore.score / actionNGramScore.timesVisited;
 							++numNGramsConsidered;
+							currentActionNode = currentActionNode.getParent();
 						}
 					}
 					
